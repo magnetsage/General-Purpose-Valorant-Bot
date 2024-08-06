@@ -3,7 +3,7 @@ from api_modules import obtain_data
 # API domain name
 domain = 'https://api.henrikdev.xyz'
 
-def get_basic_account_details(username: str, tagline: str) -> str:
+def get_basic_account_details(username: str, tagline: str):
     '''
     Returns:
     - data,
@@ -17,7 +17,7 @@ def get_basic_account_details(username: str, tagline: str) -> str:
 
     return data, error_message
 
-def get_detailed_account_details(region: str, puuid: str) -> str:
+def get_detailed_account_details(region: str, puuid: str):
     '''
     Returns:
     - data
