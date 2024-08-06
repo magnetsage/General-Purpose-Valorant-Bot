@@ -1,3 +1,4 @@
+# Imports sercure enviroment for discord token and API key
 import os
 from dotenv import load_dotenv
 
