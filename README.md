@@ -19,16 +19,33 @@ The Valorant Discord Bot is a general-purpose bot for Discord designed to provid
 
 ### APIs Used
 
--<a href="https://github.com/Henrik-3/unofficial-valorant-api">**unofficial valorant api**</a> by <a href="https://github.com/Henrik-3">__Henrik 3__</a>: Provides data related to Valorant matches, player statistics, and other game information.
+-<a href="https://github.com/Henrik-3/unofficial-valorant-api"> **unofficial valorant api**</a> by <a href="https://github.com/Henrik-3">__Henrik 3__</a>: Provides data related to Valorant matches, player statistics, and other game information.
+-<a href="https://valorant-api.com/"> **valorant-api.com**</a> by <a href="https://github.com/NotOfficer">__NotOfficer__</a>: Provides various Valorant in game assets including skins, icons, agents and many more
+
+## Roadmap/bot features
+
+- [x] Player info
+- [x] Player statistics
+- [x] Player rank information
+- [ ] Agent information
+- [ ] Weapon stats
+- [ ] Map information
+- [ ] Patch notes
+- [ ] User profiles
+- [ ] Info on VCT matches commands
+- [ ] Valorant leaderboard features
+    - [ ] Premier
+    - [ ] Radiant and Immortal leaderboard
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 - Python 3.12.2 or higher is installed on your machine.
+- [git](https://git-scm.com/downloads) and [Github Desktop](https://github.com/apps/desktop) for version control
 - [pip](https://pip.pypa.io/en/stable/installation/) is installed for package management.
-- A Discord account and a server where you can add the bot.
-- A registered Discord application with a bot token. You can register a bot at the [Discord Developer Portal](https://discord.com/developers/applications).
+- Access to the discord bot application and token (Message harpoonz_ on discord)
+- Access to API key (Message harpoonz_ on discord)
 
 ## Installation
 
@@ -37,33 +54,11 @@ Before you begin, ensure you have met the following requirements:
    Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/your-username/discord-bot.git
-   cd discord-bot
+   git clone https://github.com/harpoonwithaz/General-Purpose-Valorant-Bot
+   cd General-Purpose-Valorant-Bot
    ```
 
-2. **Create a Virtual Environment**
-
-   Create a virtual environment to manage dependencies:
-
-   ```bash
-   python -m venv venv
-   ```
-
-3. **Activate the Virtual Environment**
-
-   - On Windows:
-
-     ```bash
-     .\venv\Scripts\activate
-     ```
-
-   - On macOS and Linux:
-
-     ```bash
-     source venv/bin/activate
-     ```
-
-4. **Install Dependencies**
+2. **Install Dependencies**
 
    Install the necessary Python packages using `pip`:
 
@@ -92,27 +87,13 @@ Before you begin, ensure you have met the following requirements:
 
 ## Running the Bot
 
-1. **Activate the Virtual Environment**
-
-   Ensure the virtual environment is activated:
-
-   ```bash
-   # Windows
-   .\venv\Scripts\activate
-
-   # macOS and Linux
-   source venv/bin/activate
-   ```
-
-2. **Run the Bot**
+**Run the Bot**
 
    Start the Discord bot using:
 
    ```bash
    python discord_bot.py
    ```
-
-   The bot should connect to Discord and begin running, displaying a message in the console indicating it is online.
 
 ## Contributing
 
